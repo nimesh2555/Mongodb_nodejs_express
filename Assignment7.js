@@ -10,7 +10,7 @@ function button1() {
     var title = document.getElementById("title").value;
     var links = document.getElementById("links").value;
     var j = JSON.parse('{"title":"' + title + '","links":"' + links + '","clicks" :0}');
-    console.log(links + title);
+    
     console.log(j);
 
 
